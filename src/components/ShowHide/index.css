@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.main-container {
+  font-family: 'Roboto';
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  color: #ffffff;
+}
+button {
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+  border-width: 0px;
+  color: #dd1264;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+p {
+  background-color: #fddddb;
+  font-weight: bold;
+  padding: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
+.button-container {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
